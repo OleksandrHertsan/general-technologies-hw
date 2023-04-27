@@ -1,0 +1,11 @@
+1.
+UPDATE Customers
+ContactName = ''
+WHERE Country IN ('China', 'USA');
+
+2.  
+UPDATE Products
+SET Price = 10
+WHERE CategoryID IS NULL 
+      AND 
+      Price > 20
