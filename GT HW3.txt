@@ -1,0 +1,21 @@
+1.
+Размещение рекламы
+Коммент
+Чат
+Создание плейлиста
+Жалоба на контент
+Обращение в техподдержку
+
+
+2.
+SELECT *
+FROM Orders
+JOIN Customers ON Orders.CustomerID=Customers.CustomerID
+WHERE Customers.Country IS NOT 'USA'
+
+
+3.
+
+UPDATE Products
+SET Price=Price * (1 - .10)
+WHERE Price BETWEEN 50 AND 90
